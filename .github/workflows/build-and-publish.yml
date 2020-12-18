@@ -12,7 +12,7 @@ env:
   image-name: ghcr.io/peterjking/samples-weatherforecast-part-3:${{ github.sha }}
 
 jobs:
-  build-secure-push:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
